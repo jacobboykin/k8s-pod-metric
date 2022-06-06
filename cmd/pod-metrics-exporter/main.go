@@ -49,7 +49,7 @@ func main() {
 
 	cliApp := &cli.App{
 		Name:  "pod-metrics-exporter",
-		Usage: "fight the loneliness!",
+		Usage: "monitor all the things!",
 		Flags: []cli.Flag{
 			&cli.StringFlag{
 				Name:        "label-name",
